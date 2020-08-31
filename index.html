@@ -21,11 +21,11 @@
             <span class="bar"></span>
           </div>
           <ul id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
       </div>
       
@@ -37,7 +37,7 @@
         <div class="text">
           <h1>Live beautifully and comfortably</h1>
           <p>We design beautiful interiors that are very comfortable</p>
-          <button class="btn">Our Projects</button>
+          <button class="btn"><a href="#contact">Book Us</a></button>
         </div>
         <div class="image">
           <img src="assets/img/hero-image.png" alt="home decor">
@@ -195,11 +195,11 @@
         <div class="text">
           <h3>Contact</h3>
           <h2>Get in touch with us</h2>
-          <form>
-            <input type="text" name="name" id="name" placeholder="Name">
-            <input type="email" name="email" id="email" placeholder="Email">
-            <textarea name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
-            <button class="btn">Send Message</button>
+          <form data-netlify="true">
+            <input required type="text" name="name" id="name" placeholder="Name">
+            <input required type="email" name="email" id="email" placeholder="Email">
+            <textarea required name="message" name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+            <button class="btn" type="submit">Send Message</button>
           </form>
         </div>
       </section>
@@ -216,14 +216,14 @@
           </div>
           <div class="footer-item">
             <h3>Useful links</h3>
-            <p>Portfolio</p>
-            <p>Our services</p>
-            <p>About</p>
+            <p><a href="#projects">Portfolio</a></p>
+            <p><a href="#services">Our services</a></p>
+            <p><a href="#about">About</a></p>
           </div>
           <div class="footer-item">
             <h3>Contact</h3>
             <p>081444 666 78</p>
-            <p>Hello@topazinteriors.com</p>
+            <p><a href="mailto:Hello@topazinteriors.com">Hello@topazinteriors.com</a></p>
             <p>Plot 555, lome streetout</p>
           </div>
           <div class="footer-item">
