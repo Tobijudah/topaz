@@ -146,7 +146,7 @@ li {
 }
 
 .mini-card {
-  background-color: #fdfdfd;
+  background-color: #fbfbfb;
   padding: 1.45rem 1rem 2.5rem;
 }
 
@@ -215,7 +215,7 @@ li {
 
 .card {
   text-align: left;
-  background-color: #fdfdfd;
+  background-color: #fbfbfb;
   padding: 2.2rem 2.05rem 3.875rem;
   margin: auto;
 }
@@ -335,6 +335,10 @@ footer h3 {
 
   #about .image {
     width: 100%;
+  }
+
+  #about .text > p {
+    margin: 1.5rem 0 1rem 0;
   }
 
   #about .text {
