@@ -23,4 +23,11 @@ $('.menu-toggle').click(function(){
    $("#nav-links").toggleClass("mobile-nav");
    $(this).toggleClass("is-active");
 });
+
+$('#nav-links').click(function(){
+   $("#nav-links").toggleClass("mobile-nav");
+   $('.menu-toggle').toggleClass("is-active");
+});
+
+
   
