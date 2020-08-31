@@ -86,6 +86,10 @@ li {
   font-weight: 600;
 }
 
+.btn, .slick-arrow {
+  cursor: pointer;
+}
+
 .btn a {
   color: #fff;
 }
