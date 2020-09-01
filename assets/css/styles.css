@@ -389,6 +389,10 @@ footer h3 {
     gap: 3rem 2.5rem;
   }
 
+  .image-grid img:last-of-type{
+    display: block;
+  }
+
   #contact {
     flex-direction: column;
   }
